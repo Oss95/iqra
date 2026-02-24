@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Iqra – Quran & Arabisch lernen</title>
+  <meta name="description" content="Iqra ist die kostenlose App zum Quran lesen, Arabisch lernen und den Islam verstehen. Für Android und iOS.">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      background: linear-gradient(135deg, #0D7C5F 0%, #065A42 100%);
+      color: #fff;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 2rem;
+    }
+    .container { max-width: 600px; text-align: center; }
+    .logo {
+      width: 120px; height: 120px;
+      background: rgba(255,255,255,0.15);
+      border-radius: 28px;
+      display: flex; align-items: center; justify-content: center;
+      margin: 0 auto 2rem;
+      font-size: 3rem;
+    }
+    h1 { font-size: 2.5rem; margin-bottom: 0.5rem; font-weight: 700; }
+    .subtitle { font-size: 1.2rem; opacity: 0.9; margin-bottom: 2rem; }
+    .features {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 1rem;
+      margin: 2rem 0;
+      text-align: left;
+    }
+    .feature {
+      background: rgba(255,255,255,0.1);
+      border-radius: 12px;
+      padding: 1rem;
+    }
+    .feature h3 { font-size: 0.95rem; margin-bottom: 0.3rem; }
+    .feature p { font-size: 0.85rem; opacity: 0.8; }
+    .badges { margin: 2rem 0; display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap; }
+    .badge {
+      background: #fff;
+      color: #065A42;
+      padding: 0.75rem 1.5rem;
+      border-radius: 12px;
+      font-weight: 600;
+      text-decoration: none;
+      font-size: 0.95rem;
+      transition: transform 0.2s;
+    }
+    .badge:hover { transform: scale(1.05); }
+    .links { margin-top: 3rem; opacity: 0.7; font-size: 0.85rem; }
+    .links a { color: #fff; margin: 0 0.75rem; }
+    @media (max-width: 500px) {
+      .features { grid-template-columns: 1fr; }
+      h1 { font-size: 2rem; }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="logo">📖</div>
+    <h1>Iqra</h1>
+    <p class="subtitle">Quran lesen · Arabisch lernen · Islam verstehen</p>
+
+    <div class="features">
+      <div class="feature">
+        <h3>📖 Quran</h3>
+        <p>Alle 114 Suren mit Audio-Rezitation und Übersetzung</p>
+      </div>
+      <div class="feature">
+        <h3>✏️ Arabisch</h3>
+        <p>Alphabet, Vokabeln und Grammatik Schritt für Schritt</p>
+      </div>
+      <div class="feature">
+        <h3>🎯 Lernpfad</h3>
+        <p>Strukturierter Kurs von A1 bis B2 mit Flashcards</p>
+      </div>
+      <div class="feature">
+        <h3>🔒 Privat</h3>
+        <p>100% offline – alle Daten bleiben auf deinem Gerät</p>
+      </div>
+    </div>
+
+    <div class="badges">
+      <a href="#" class="badge">▶ Google Play</a>
+      <a href="#" class="badge">🍎 App Store</a>
+    </div>
+
+    <div class="links">
+      <a href="datenschutz.html">Datenschutz</a>
+      <a href="impressum.html">Impressum</a>
+      <a href="mailto:info@iqra-app.com">Kontakt</a>
+    </div>
+  </div>
+</body>
+</html>
